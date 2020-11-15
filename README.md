@@ -4,9 +4,9 @@
 
 ## **Overview of Project**
 
-### **Kickstarter Analysis for Louise's Theater Project**
+### Kickstarter Analysis for Louise's Theater Project.
 
-This project further explores data taken from kickstarter.  It is an attempt to explore possible relationships between  theater campaigns 'launch date' and 'goal amount' with their outcomes (success/failiure). These trends may lead us to a better understanding of when best to Launch a campaign and how high our goal should be. It will visualize these relationships with line charts.
+This project further explores data taken from kickstarter.  It is an attempt to explore possible relationships between  theater campaigns 'launch date' and 'goal amount' with their outcomes (success/failiure). These trends may lead us to a better understanding of when it is best to Launch a campaign and how high our goal should be. It will visualize these relationships with line charts.
 
 [Kickstarter Data](Kickstarter_Challenge.xlsx)
 
@@ -14,7 +14,7 @@ This project further explores data taken from kickstarter.  It is an attempt to 
 ## **Analysis and Challenges**
 
 
-### **Analysis of Outcomes Based on Launch Date**
+### Analysis of Outcomes Based on Launch Date
 From the data provided, we first created a new column "Years" allowing our data to be filterd by year of Launch date. We are then able to use a pivot table to compare outcomes of campaigns,(success, failiure, cancellation) to launch dates by month, with the further option to look at each year individually. We have filtered the data by catergory to look specifically at Theater campaigns.
 The relationship between outcome and Launch date is visualized in the line chart below.
 
@@ -24,7 +24,7 @@ The relationship between outcome and Launch date is visualized in the line chart
 
  
 
-### **Analysis of Outcomes Based on Goals**
+### Analysis of Outcomes Based on Goals
 In order to examine the relationship between goals and outcome, we have created a table with 12 new catergories for goal amount ranges. Then, looking at the subcategory "plays", found the count of success, failiure and cancelled outcomes for each of these new goal ranges.  We have used these counts to calculated the percentages of Success and Failiure for each of our new Goal range catergories. 
 The results are visualized in the line chart below.
 
@@ -62,7 +62,7 @@ Working in Excel it is easy to accidently make an error in a cell. In order to h
 
 
 
-### Possible Further visualizations ###
+### Possible Further visualizations 
  - A box and whisker graph could be created to show us the amounts requested for campaigns, allowing us to see the median, IQR and spot outliers.
 
  - Further breakdown of goal catergories to focus on the lower end goal.
