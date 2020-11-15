@@ -1,13 +1,17 @@
 # **Analysis of Kickstarter Campaign Data**
 
   -Excel File
-    -[Kickstarter_Challenge_copy.xlsx](Kickstarter_Challenge_copy.xlsx)
+    -[Kickstarter_Challenge.xlsx](Kickstarter_Challenge.xlsx)
 
 ## **Overview of Project**
 
 ### **Kickstarter Analysis for Louise's Theater Project**
 
 This project further explores data taken from kickstarter.  It is an attempt to explore possible relationships between  theater campaigns'launch date' and 'goal amount' with their outcomes (sucsess/failiure). These trends may lead us to a better understanding of when best to Launch a campaign and how high our goal should be. It will visualize these relationships with line charts.
+
+
+  
+  [Kickstarter data](Kickstarter_Challenge.xlsx)
 
 
 ## **Analysis and Challenges**
