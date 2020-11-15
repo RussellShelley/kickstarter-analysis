@@ -1,17 +1,14 @@
 # **Analysis of Kickstarter Campaign Data**
 
-  -Excel File
-    -[Kickstarter_Challenge.xlsx](Kickstarter_Challenge.xlsx)
+  
 
 ## **Overview of Project**
 
 ### **Kickstarter Analysis for Louise's Theater Project**
 
-This project further explores data taken from kickstarter.  It is an attempt to explore possible relationships between  theater campaigns'launch date' and 'goal amount' with their outcomes (sucsess/failiure). These trends may lead us to a better understanding of when best to Launch a campaign and how high our goal should be. It will visualize these relationships with line charts.
+This project further explores data taken from kickstarter.  It is an attempt to explore possible relationships between  theater campaigns 'launch date' and 'goal amount' with their outcomes (success/failiure). These trends may lead us to a better understanding of when best to Launch a campaign and how high our goal should be. It will visualize these relationships with line charts.
 
-
-  
-  [Kickstarter data](Kickstarter_Challenge.xlsx)
+[Kickstarter Data](Kickstarter_Challenge.xlsx)
 
 
 ## **Analysis and Challenges**
@@ -22,14 +19,13 @@ From the data provided, we first created a new column "Years" allowing our data 
 The relationship between outcome and Launch date is visualized in the line chart below.
 
 ![Outcomes_Based_on_Launch](Resources/Theater_Outcomes_vs_Launch.png)
--[Outcomes_Based_on_Launch](Resources/Theater_Outcomes_vs_Launch.png)
+[Outcomes_Based_on_Launch](Resources/Theater_Outcomes_vs_Launch.png)
 
 
  
 
 ### **Analysis of Outcomes Based on Goals**
-In order to examine the relationship between goals and outcome, we have created 12 new catergories for goal amounts. Then, looking at the subcategory "plays" found the outcome totals for each of these new catergories.
-We have then calculated the percentages of Success and Failiure for each of our new Goal catergories. We can see the vast majority of campaigns set goals less than $10k and $1k-$5k was the most common goal. 
+In order to examine the relationship between goals and outcome, we have created a table with 12 new catergories for goal amount ranges. Then, looking at the subcategory "plays", found the count of success, failiure and cancelled outcomes for each of these new goal ranges.  We have used these counts to calculated the percentages of Success and Failiure for each of our new Goal range catergories. 
 The results are visualized in the line chart below.
 
 ![Outcomes_Based_on_Goals](Resources/Outcomes_vs_Goals.png)
@@ -38,12 +34,16 @@ The results are visualized in the line chart below.
  
 
 ### Challenges and Difficulties Encountered
+Working in Excel it is easy to accidently make an error in a cell. In order to help spot these errors we can cross check totals. For the 'outcome' totals at the bottom of my 'Outcomes by Goal table' I calculated using =sum(column) and crosschecked in the cell below using a countifs for all occurences of the desired 'outcome' with a Goal >0. This helped highlight any errors in Outcome columns cell.    
+
+
+
 
 ## **Conclusions**
 ### Outcomes based on Launch Date
 
 - At a glance we can see that May is the best time to launch. Campaigns launched in at the beginning of summer have the highest sucess rate with May being the peak with 111 success' to 52 failiure.  
-- December is the worst time to launch.  We can see that theater kickstarters launched in December are the least successful, 37 success' to 35 failiures. Perhaps, donors have to many other expenses around the holiday period.
+- December is the worst time to launch.  We can see that theater kickstarters launched in December are the least successful, 37 success' to 35 failiures. Perhaps, donors have too many other expenses around the holiday period.
 
 
  
@@ -57,7 +57,7 @@ The results are visualized in the line chart below.
 
 ### Dataset Limitations
 
-- Lacking data. The lack of campaigns with high goals limits this dataset. We have only one campaign in the $45-50k, three in $40-45 etc. Most Play kickstarters set a goal of less than $10k.
+- Lacking data. The lack of campaigns with high goals limits this dataset. We have only one campaign in the $45-50k, three in $40-45k. Most Play kickstarters set a goal of less than $10k.
 - We can see when filtering by years that although we have kickstarter data dating back to 2009, most of the theater campaigns are from 2014 through 2016. Adding more years will improve data quality.  
 
 
@@ -67,6 +67,6 @@ The results are visualized in the line chart below.
 
  - Further breakdown of goal catergories to focus on the lower end goal.
   - We can calculate length of campaign form the start and end datess. Then look for effects of campaign length on outcome.
-  - We can look at the effect of being "staff pick" on outcomes. 
+  - We can look at the effect of being a "staff pick" on outcomes. 
 
 
